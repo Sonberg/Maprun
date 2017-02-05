@@ -1,0 +1,145 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - CZPicker (0.4.3)
+  - DGRunkeeperSwitch (1.1.4)
+  - DynamicButton (3.1.0)
+  - Fakery (2.0.0)
+  - Firebase/Auth (3.9.0):
+    - Firebase/Core
+    - FirebaseAuth (= 3.0.6)
+  - Firebase/Core (3.9.0):
+    - FirebaseAnalytics (= 3.5.1)
+    - FirebaseCore (= 3.4.4)
+  - Firebase/Database (3.9.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 3.1.0)
+  - Firebase/Storage (3.9.0):
+    - Firebase/Core
+    - FirebaseStorage (= 1.0.4)
+  - FirebaseAnalytics (3.5.1):
+    - FirebaseCore (~> 3.4)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseAuth (3.0.6):
+    - FirebaseAnalytics (~> 3.4)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (3.4.4):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (3.1.0):
+    - FirebaseAnalytics (~> 3.4)
+  - FirebaseInstanceID (1.0.8)
+  - FirebaseStorage (1.0.4):
+    - FirebaseAnalytics (~> 3.4)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FontAwesome.swift (1.0.0)
+  - Former (1.5.1)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleToolboxForMac/DebugUtils (2.1.0):
+    - GoogleToolboxForMac/Defines (= 2.1.0)
+  - GoogleToolboxForMac/Defines (2.1.0)
+  - GoogleToolboxForMac/NSData+zlib (2.1.0):
+    - GoogleToolboxForMac/Defines (= 2.1.0)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.0):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.0)
+    - GoogleToolboxForMac/Defines (= 2.1.0)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.0)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.0)
+  - GTMSessionFetcher/Core (1.1.7)
+  - KMPlaceholderTextView (1.3.0)
+  - M13Checkbox (3.1.2)
+  - MXParallaxHeader (0.6.0)
+  - Presentr (1.0.3)
+  - RKDropdownAlert (0.3.0)
+  - SideMenu (2.0.6)
+  - SkyFloatingLabelTextField (2.0.1)
+  - Spring (1.0.3)
+  - SVProgressHUD (2.0.4)
+  - UIImageView-Letters (1.1.4)
+  - Whisper (4.0.0)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - CZPicker
+  - DGRunkeeperSwitch (~> 1.1.4)
+  - DynamicButton (~> 3.1.0)
+  - Fakery
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Storage
+  - FontAwesome.swift
+  - Former
+  - KMPlaceholderTextView (~> 1.3.0)
+  - M13Checkbox
+  - MXParallaxHeader
+  - Presentr
+  - RKDropdownAlert
+  - SideMenu
+  - SkyFloatingLabelTextField (from `git@github.com:Skyscanner/SkyFloatingLabelTextField.git`)
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SVProgressHUD
+  - UIImageView-Letters
+  - Whisper
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  SkyFloatingLabelTextField:
+    :git: git@github.com:Skyscanner/SkyFloatingLabelTextField.git
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: dcf98f9bf3a632a7f40679b7da46f09681e48526
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  SkyFloatingLabelTextField:
+    :commit: 3a487d480b612b9f8718343b014d55f99a6c7fba
+    :git: git@github.com:Skyscanner/SkyFloatingLabelTextField.git
+  Spring:
+    :commit: 3a9227c6e9157e7b47f5ac1ee5abab2a56b50002
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  CZPicker: 55aa1751ea26e209814552da1a9a08cba8bbf72a
+  DGRunkeeperSwitch: cc237936f42237307f5e212e18136a27bf907bf1
+  DynamicButton: 37968af761a31274aeac427f40204688fa810342
+  Fakery: 97b99c23937d2e025d9135c75e2b17351ccd5031
+  Firebase: ff77ffb77b317c3720fef57a60e9335cebf962e6
+  FirebaseAnalytics: 6e58fc9b397664369ac7617fb0ba93fab6ba7b5b
+  FirebaseAuth: 96e9674ff31d6e1f826d53e26aa003a57cab0295
+  FirebaseCore: d0ed25f27b6f9158eccc439f1be6f92e81207e28
+  FirebaseDatabase: 3ebb2edb6007c3f0f87b248f3fa212bde56a1468
+  FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
+  FirebaseStorage: c50aa353bf484072704e73b4aff1bd47adb735c4
+  FontAwesome.swift: 2d32a3d62195343c2004b7c9043294ed2948553a
+  Former: 0b48a812c0d93b092b908d1b0574d0fd95c6b6f9
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleToolboxForMac: 2b2596cbb7186865e98cadf2b1e262d851c2b168
+  GTMSessionFetcher: a1f8ed39e4fe21c68957daed472c7afbcdf29166
+  KMPlaceholderTextView: 2bbcd19a273648a80a61e1e48f9743a24d8930e3
+  M13Checkbox: 7c7c7e8d90f514b6925523531762b768ca778e53
+  MXParallaxHeader: 2997592b8349baf8557ae0e4346f6b17e141de39
+  Presentr: 9759bf538d9f3211a5ee1314a541a11bbea7ea71
+  RKDropdownAlert: f4b3364c251829ad439dc666836a1f2dad26f4c7
+  SideMenu: 90be7a14e9f54eb528f96f2033aa54f2992c5667
+  SkyFloatingLabelTextField: 967b6bd47ce111d478e78aee2101cf1492028573
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
+  UIImageView-Letters: f62db28076797adf3560ab7410647dc6899b9eef
+  Whisper: 08be92623311f8e53201e62e17f6d7b9599a4714
+
+PODFILE CHECKSUM: 8021238554f7fad9c2383b381140150b6a8d2011
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,6 @@
+framework module Pods_maprun {
+  umbrella header "Pods-maprun-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -377,7 +377,7 @@ class SidebarViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
         }
         
-        if segue.destination is QuestionViewController {
+        if segue.destination is UsersTableViewController {
             let vc = segue.destination as! UsersTableViewController
             vc.mission = self.mission
             vc.user = self.user
